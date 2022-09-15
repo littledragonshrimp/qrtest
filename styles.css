@@ -1,0 +1,63 @@
+.outer {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+padding-top: 10px;
+border: solid white;
+border-radius: 25px;
+background: white;
+width: 390px;
+height: 550px;
+align-items: center;
+justify-content: center;
+align-self: center;
+}
+
+#codeSquare {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-radius: 25px;
+}
+
+#improve {
+    display: block;
+    padding-top: 5px;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    color: darkblue;  
+    font-size: 1.6vw; 
+    min-width: 90%;
+
+    
+    
+}
+
+#scan {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    color: rgb(144, 144, 144);
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 1vw;  
+    min-width: 90%;
+    max-width: 90%;
+}
+
+body {
+    background-color: #d7e1ee;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*color: #d7e1ee;*/
+}
+
